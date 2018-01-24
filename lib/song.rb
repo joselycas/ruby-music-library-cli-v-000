@@ -64,8 +64,7 @@ class Song
   end
 
   def self.sorted_songs
-    Genre.all.sort{ |x,y| x.name <=> y.name }.each.with_index(1) do |s, index|
-        puts "#{index}. #{s.name}"
+    Genre.all.sort{ |x,y| x.name <=> y.name }
     end
   end
 end
