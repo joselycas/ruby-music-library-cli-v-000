@@ -19,7 +19,7 @@ attr_accessor :path
       puts "What would you like to do?"
       user_input = gets.chomp
       case user_input
-        when "list songs'"
+        when "list songs"
             #puts "Welcome to your music library!"
             list_songs
         when "list artists"
