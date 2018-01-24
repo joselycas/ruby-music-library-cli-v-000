@@ -29,7 +29,8 @@ attr_accessor :path
             #puts "To list all of your genres, enter 'genres'."
             list_genres
         when "list artist"
-            puts "To list all of your artist, enter 'artist'."
+            list_songs_by_artist
+            #puts "To list all of your artist, enter 'artist'."
         when "list genre"
             puts "To list all of your genre, enter 'list genre'."
         end
