@@ -77,6 +77,6 @@ attr_accessor :path
     puts "Which song number would you like to play?"
     index = gets.strip.to_i-1
     song = Song.sorted_songs[index]
-    puts "Playing Larry Csonka by Action Bronson"
+    puts "Playing #{song} by #{Action Bronson}"
   end
 end
