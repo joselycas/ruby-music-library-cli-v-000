@@ -75,7 +75,7 @@ attr_accessor :path
 
   def play_song
     puts "Which song number would you like to play?"
-    user_input = gets.strip
+    user_input = gets.strip.to_i-1
     if user_input == list_songs
       user_input
     end
