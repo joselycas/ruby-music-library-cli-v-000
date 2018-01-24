@@ -21,6 +21,7 @@ attr_accessor :path
       case user_input
         when "list songs'"
             puts "Welcome to your music library!"
+            list_songs
         when "list artists"
             puts "To list all of your artists, enter 'artists'."
         when "list genres"
