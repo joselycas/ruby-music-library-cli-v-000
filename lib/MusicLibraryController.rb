@@ -34,6 +34,8 @@ attr_accessor :path
         when "list genre"
           list_songs_by_genre
             #puts "To list all of your genre, enter 'list genre'."
+        when "play song"
+          play_song
         end
       end
   end
