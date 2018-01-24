@@ -62,4 +62,10 @@ class Song
   def self.create_from_filename(name)
     @@all << self.new_from_filename(name)
   end
+
+  def self.sorted_songs
+    Genre.all.sort{ |x,y| x.name <=> y.name }.each.with_index(1) do |s, index|
+        puts "#{index}. #{s.name}"
+    end
+  end
 end
