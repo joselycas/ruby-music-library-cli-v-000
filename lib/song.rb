@@ -65,5 +65,5 @@ class Song
 
   def self.sorted_songs
     Genre.all.sort{ |x,y| x.name <=> y.name }
-    end
+  end
 end
