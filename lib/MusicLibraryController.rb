@@ -76,8 +76,8 @@ attr_accessor :path
   def play_song
     puts "Which song number would you like to play?"
     index = gets.strip.to_i-1
-    song = Song.sorted_songs[index]
-    if song
+    if 
+      song = Song.sorted_songs[index]
       puts "Playing #{song.name} by #{song.artist.name}"
     end
   end
