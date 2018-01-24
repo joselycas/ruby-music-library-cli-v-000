@@ -79,5 +79,6 @@ attr_accessor :path
     song = Song.sorted_songs[index]
     if song
       puts "Playing #{song.name} by #{song.artist.name}"
+    end
   end
 end
