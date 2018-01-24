@@ -23,7 +23,8 @@ attr_accessor :path
             #puts "Welcome to your music library!"
             list_songs
         when "list artists"
-            puts "To list all of your artists, enter 'artists'."
+            #puts "To list all of your artists, enter 'artists'."
+            list_artists
         when "list genres"
             puts "To list all of your genres, enter 'genres'."
         when "list artist"
